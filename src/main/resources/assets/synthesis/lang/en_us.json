@@ -1,0 +1,19 @@
+{
+  "item.synthesis.test_tube": "Test Tube",
+  "item.synthesis.mortar_and_pestle": "Mortar and Pestle",
+  "item.synthesis.kernite": "Kernite",
+  "item.synthesis.silica_dust": "Silica Dust",
+  "item.synthesis.kernite_dust": "Kernite Dust",
+
+  "block.synthesis.kernite_ore": "Kernite Ore",
+  "block.synthesis.kiln": "Kiln",
+
+  "itemgroup.synthesis.synthesis_items": "Synthesis: Items",
+  "itemgroup.synthesis.synthesis_blocks": "Synthesis: Blocks",
+
+  "item.synthesis.kernite_tooltip": "§8Na₂B₄O₆(OH)₂ • 3H₂0",
+  "item.synthesis.silica_tooltip": "§8SiO₂",
+
+  "block.synthesis.kiln_tooltip": "§8[§7Shift§8]",
+  "block.synthesis.kiln_tooltip.shift_down": "§7Your main crafting area for a while."
+}

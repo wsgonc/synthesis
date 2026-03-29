@@ -1,6 +1,13 @@
 plugins {
 	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
 	id 'maven-publish'
+	id 'idea'
+}
+
+idea {
+	module {
+		inheritOutputDirs = true
+	}
 }
 
 version = project.mod_version
