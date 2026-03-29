@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "synthesis",
+	"version": "${version}",
+	"name": "Synthesis",
+	"description": "A mod about mixing and creating chemicals ( + a bit of fringe science :) )",
+	"authors": [
+		"wes"
+	],
+	"contact": {
+		"homepage": "https://puginarug.com/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/synthesis/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.wes.synthesis.Synthesis"
+		],
+		"fabric-datagen": [
+			"net.wes.synthesis.SynthesisDataGenerator"
+		],
+		"client": [
+			"net.wes.synthesis.SynthesisClient"
+		]
+	},
+	"mixins": [
+		"synthesis.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
